@@ -266,9 +266,9 @@ export default function Home() {
               </h1>
               <p className="hero-description">
                 I’m <strong>Ali Damghouni.</strong> I build reliable web
-applications with React, Node.js and MongoDB,
-<br className="desktop-break" /> with a DevOps mindset
-(Docker, CI/CD, Linux).
+                applications with React, Node.js and MongoDB,
+                <br className="desktop-break" /> with a DevOps mindset
+                (Docker, CI/CD, Linux).
               </p>
               <div className="hero-ctas">
                 <a className="button primary" href="#projects">
