@@ -2814,3 +2814,644 @@ textarea {
   margin: 3px 0;
   stroke-width: 1.5;
 }
+
+
+/* Mobile usability: keep controls comfortable to tap and copy easy to read. */
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 84px;
+  }
+
+  .theme-toggle,
+  .menu-toggle {
+    display: grid !important;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .menu-toggle svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .header-actions {
+    gap: 6px;
+  }
+
+  .main-nav a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .hero-ctas {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hero .button {
+    min-height: 48px;
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+
+  .hero .resume-link {
+    padding: 12px 8px;
+  }
+
+  .hero-social {
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 10px;
+  }
+
+  .hero-social > span {
+    min-height: 44px;
+  }
+
+  .hero-social > a {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+  }
+
+  .scroll-hint {
+    min-height: 44px;
+    padding: 10px 0;
+    bottom: 12px;
+  }
+
+  .section-label {
+    margin-bottom: 20px;
+    font-size: 9px;
+  }
+
+  .section-label > span:first-child {
+    width: 28px;
+    height: 28px;
+  }
+
+  .section-heading p {
+    font-size: 12px;
+  }
+
+  .text-link {
+    min-height: 44px;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .section-heading .text-link {
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .filter-bar {
+    gap: 6px;
+    padding: 12px 0 18px;
+  }
+
+  .filter {
+    min-height: 44px;
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  .project-meta {
+    font-size: 9px;
+  }
+
+  .project-title {
+    min-height: 44px;
+    font-size: 22px;
+  }
+
+  .project-card > p {
+    font-size: 13px;
+  }
+
+  .tags > span {
+    padding: 5px 9px;
+    font-size: 10px;
+  }
+
+  .portrait-caption {
+    gap: 8px;
+    font-size: 9px;
+  }
+
+  .about-content > p:not(.large-copy) {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .about-values {
+    gap: 10px 14px;
+  }
+
+  .about-values > span {
+    font-size: 11px;
+  }
+
+  .education p {
+    font-size: 11px;
+  }
+
+  .languages {
+    flex-wrap: wrap;
+    gap: 8px 10px;
+    font-size: 11px;
+  }
+
+  .heading-sidecopy {
+    font-size: 12px;
+  }
+
+  .skill-title p {
+    font-size: 11px;
+  }
+
+  .skill-tags > span {
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .skills-footnote {
+    font-size: 11px;
+  }
+
+  .timeline-date {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 9px;
+    line-height: 1.5;
+  }
+
+  .timeline-date > span {
+    font-size: 8px;
+    text-align: left;
+  }
+
+  .experience-heading > p {
+    font-size: 12px;
+  }
+
+  .timeline-item h4 {
+    font-size: 12px;
+  }
+
+  .timeline-item p,
+  .timeline-item ul {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .contact-section .contact-layout > div:first-child > p {
+    font-size: 13px;
+  }
+
+  .contact-email {
+    min-height: 44px;
+    gap: 10px;
+    font-size: clamp(16px, 5vw, 19px);
+  }
+
+  .contact-email > svg {
+    flex: none;
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact-links {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .contact-links > a,
+  .contact-links > button {
+    min-height: 44px;
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form .form-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contact-form label {
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  input,
+  textarea,
+  select {
+    min-height: 48px;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .contact-form textarea {
+    min-height: 132px;
+  }
+
+  .send-button {
+    min-height: 48px;
+    font-size: 14px;
+  }
+
+  .form-privacy {
+    align-items: flex-start;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .site-footer > p {
+    font-size: 10px;
+  }
+
+  .site-footer > div {
+    gap: 6px;
+  }
+
+  .site-footer > div > a {
+    min-height: 44px;
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .site-footer .admin-footer {
+    font-size: 10px;
+  }
+
+  .modal {
+    max-height: calc(100dvh - 24px);
+    padding: 26px 20px;
+    overflow-y: auto;
+  }
+
+  .modal-close {
+    top: 8px;
+    right: 8px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .modal-actions > a,
+  .modal-actions .button {
+    min-height: 48px;
+  }
+
+  .admin-header-links {
+    gap: 6px;
+    font-size: 11px;
+  }
+
+  .admin-header-links > a {
+    min-height: 44px;
+    padding: 8px 0;
+  }
+
+  .admin-header-links > button {
+    display: grid;
+    place-items: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .admin-title {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .admin-title h1,
+  .admin-login h1 {
+    font-size: clamp(28px, 8vw, 34px);
+  }
+
+  .admin-title p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .admin-title .button {
+    width: 100%;
+    min-height: 48px;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 12px;
+  }
+
+  .database-banner {
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .admin-stats {
+    gap: 8px;
+  }
+
+  .stat-card {
+    min-width: 0;
+    min-height: 98px;
+    padding: 13px 10px;
+  }
+
+  .stat-card > div > span {
+    display: block;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  .stat-card strong {
+    font-size: 24px;
+  }
+
+  .admin-tabs {
+    gap: 6px;
+    margin: 28px 0 20px;
+  }
+
+  .admin-tabs > button {
+    flex: 1;
+    min-height: 48px;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+
+  .admin-content-bar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .admin-content-bar input {
+    max-width: none;
+    min-height: 48px;
+    font-size: 16px;
+  }
+
+  .admin-content-bar > div {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .admin-content-bar .filter {
+    min-height: 44px;
+    padding: 9px 12px;
+    font-size: 11px;
+  }
+
+  .icon-actions > button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .admin-project {
+    gap: 10px;
+  }
+
+  .admin-project .icon-actions {
+    gap: 6px;
+  }
+
+  .admin-project-info h3 {
+    font-size: 18px;
+  }
+
+  .admin-project-info > p {
+    font-size: 12px;
+  }
+
+  .admin-badge {
+    font-size: 10px;
+  }
+
+  .message-summary {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .message-open {
+    min-height: 44px;
+  }
+
+  .message-open strong {
+    font-size: 12px;
+  }
+
+  .message-open small {
+    font-size: 10px;
+  }
+
+  .message-open p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .message-body > p {
+    font-size: 13px;
+  }
+
+  .message-body .button {
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+
+  .editor-form label {
+    font-size: 12px;
+  }
+
+  .editor-form input,
+  .editor-form textarea,
+  .editor-form select {
+    min-height: 48px;
+    font-size: 16px;
+  }
+
+  .editor-checks > label {
+    min-height: 44px;
+  }
+
+  .admin-login {
+    padding: 64px 24px;
+  }
+
+  .admin-login p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .admin-login small {
+    font-size: 10px;
+  }
+
+  .admin-login .button {
+    min-height: 48px;
+    margin: 0 4px;
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+
+  #not-found-button-group > button {
+    min-height: 48px;
+    padding: 12px 22px;
+    background-color: #2563eb !important;
+    color: #fff !important;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 359px) {
+  .shell {
+    width: calc(100% - 36px);
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 11.7vw, 42px);
+    line-height: 1.04;
+    letter-spacing: -2.5px;
+  }
+
+  .hero .availability {
+    margin-bottom: 22px;
+    font-size: 10px;
+  }
+
+  .hero-ctas {
+    gap: 6px;
+  }
+
+  .hero .button {
+    gap: 9px;
+    padding: 11px 10px;
+    font-size: 11px;
+  }
+
+  .hero .resume-link {
+    gap: 7px;
+    padding: 11px 6px;
+  }
+
+  .hero-social {
+    column-gap: 5px;
+  }
+
+  .stack-inner > span:not(:first-child) {
+    width: calc((100% - 50px) / 3);
+    gap: 4px;
+    font-size: 12px;
+  }
+
+  .stack-inner .next-logo > span {
+    font-size: 12px;
+  }
+
+  .section {
+    padding: 52px 0;
+  }
+
+  .section-heading h2,
+  .about-layout h2,
+  .experience-heading h2 {
+    font-size: 31px;
+  }
+
+  .large-copy {
+    font-size: 20px;
+  }
+
+  .education {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .languages {
+    gap: 8px;
+    font-size: 10px;
+  }
+
+  .contact-email {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    padding: 17px;
+  }
+
+  .admin-shell {
+    width: calc(100% - 28px);
+  }
+
+  .admin-brand {
+    gap: 14px;
+  }
+
+  .admin-brand > span {
+    margin-left: -7px;
+    padding-left: 9px;
+    font-size: 8px;
+  }
+
+  .admin-header-links {
+    gap: 2px;
+    font-size: 10px;
+  }
+
+  .admin-header-links > a {
+    gap: 4px;
+  }
+
+  .admin-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    min-height: 78px;
+    padding: 12px;
+  }
+
+  .admin-title h1 {
+    font-size: 28px;
+  }
+
+  .admin-content-bar > div .filter {
+    padding: 8px 10px;
+  }
+
+  .admin-login {
+    padding: 56px 18px;
+  }
+
+  .admin-login .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .admin-project-preview {
+    width: 72px;
+  }
+
+  .admin-project-info {
+    width: calc(100% - 88px);
+  }
+}
