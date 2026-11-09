@@ -256,13 +256,8 @@ export default function Home() {
               <div className="availability">
                 <span className="status-dot" /> Open to new opportunities
               </div>
-              <p className="eyebrow hero-eyebrow">FULL-STACK WEB DEVELOPER</p>
               <h1>
-                Thoughtful code.
-                <br />
-                Meaningful
-                <br />
-                <span>experiences.</span>
+                FULL-STACK WEB <span>DEVELOPER</span>
               </h1>
               <p className="hero-description">
                 I’m <strong>Ali Damghouni.</strong> I build reliable web
