@@ -260,10 +260,10 @@ export default function Home() {
                 FULL-STACK WEB <span>DEVELOPER</span>
               </h1>
               <p className="hero-description">
-                I’m <strong>Ali Damghouni.</strong> I build reliable web
-                applications with React, Node.js and MongoDB,
-                <br className="desktop-break" /> with a DevOps mindset
-                (Docker, CI/CD, Linux).
+                I’m <strong>Ali Damghouni.</strong> I turn complex ideas into
+                reliable,
+                <br className="desktop-break" /> intuitive web applications —
+                from frontend to backend.
               </p>
               <div className="hero-ctas">
                 <a className="button primary" href="#projects">
@@ -438,20 +438,26 @@ export default function Home() {
         </section>
         <section id="about" className="about-section">
           <div className="shell about-layout">
-            <Reveal>
-              <SectionLabel number="02" title="A LITTLE ABOUT ME" />
+            <Reveal className="about-visual">
               <h2>
                 A builder’s mindset.
                 <br />
                 <span className="muted-heading">An IT foundation.</span>
               </h2>
-              <div className="about-monogram">
-                <span>AD</span>
-                <Code2 size={34} strokeWidth={1.2} />
-                <small>DEVELOPER. PROBLEM SOLVER. LIFELONG LEARNER.</small>
+              <div className="about-portrait">
+                <img
+                  src="/ali-damghouni-about.jpeg"
+                  alt="Ali Damghouni, full-stack web developer"
+                  loading="lazy"
+                />
+                <div className="portrait-caption">
+                  <Code2 size={17} strokeWidth={1.5} />
+                  <span>DEVELOPER · PROBLEM SOLVER · LIFELONG LEARNER</span>
+                </div>
               </div>
             </Reveal>
             <Reveal className="about-content">
+              <SectionLabel number="02" title="A LITTLE ABOUT ME" />
               <p className="large-copy">
                 I connect the dots between
                 <br />
