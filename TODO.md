@@ -2,6 +2,7 @@
 
 - [x] Professional React.js frontend with Home, About Me, Skills, Projects, Experience, and Contact sections; accurate CV-derived profile, Quedlinburg location, GitHub and LinkedIn links; elegant responsive UI for desktop, tablet and mobile, accessible navigation and smooth restrained animations.
 - [x] About section with applied computer science degree (ISEAH Kef, University Jendouba, 2008–2012), GoMyCode Full-Stack JavaScript (2023–2024) and Arabic, French, German and English languages.
+- [x] Add Ali’s supplied professional photo to the responsive About section with descriptive alt text and styling consistent with the portfolio.
 - [x] Categorized skills for frontend, backend, databases, real-time, DevOps and systems; honestly label CI/CD and Kubernetes fundamentals.
 - [x] Projects dynamically served by Node.js/Express.js and MongoDB/Mongoose, detailed views, technologies and GitHub links, highlighting ongoing multilingual AmieRoute without inventing shipped work. Illustrative interface covers are disclosed in project details; featured badges respond to backend data.
 - [x] Experience timeline with Mövenpick Hotel du Lac Tunis IT administrator Feb 2017–Aug 2020 and BIAT internships 2011/2012.
